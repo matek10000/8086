@@ -1,3 +1,4 @@
-# 8086
-Projekt dot. procesora 8086
-# Test commita do pobrania
+###################################################################
+## Projekt szkolny dotyczący symulacji działania procesora 8086. ##
+################ Napisany przez Mateusza Dybasia ##################
+###################################################################
