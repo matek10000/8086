@@ -9,9 +9,25 @@ namespace CPUproject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = textBox1.Text.ToString() + " ";
-            label1.Text += textBox2.Text.ToString() + " ";
-            label1.Text += textBox3.Text.ToString();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
 
         }
     }
