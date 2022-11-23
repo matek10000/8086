@@ -65,7 +65,6 @@
             this.wykonbut.TabIndex = 0;
             this.wykonbut.Text = "WYKONAJ";
             this.wykonbut.UseVisualStyleBackColor = false;
-            this.wykonbut.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -74,13 +73,12 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 23F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(-4, -1);
+            this.label2.Location = new System.Drawing.Point(-7, -1);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(729, 45);
+            this.label2.Size = new System.Drawing.Size(739, 45);
             this.label2.TabIndex = 3;
             this.label2.Text = "8086 Simulator";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // wybor2
             // 
@@ -97,6 +95,7 @@
             this.wybor2.Text = "XCHG";
             this.wybor2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.wybor2.UseVisualStyleBackColor = false;
+            this.wybor2.Click += new System.EventHandler(this.wybor2_Click);
             // 
             // wybor1
             // 
@@ -113,6 +112,7 @@
             this.wybor1.Text = "MOV";
             this.wybor1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.wybor1.UseVisualStyleBackColor = false;
+            this.wybor1.Click += new System.EventHandler(this.wybor1_Click);
             // 
             // label1
             // 
@@ -149,6 +149,7 @@
             this.ax1.Text = "AX";
             this.ax1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ax1.UseVisualStyleBackColor = true;
+            this.ax1.Click += new System.EventHandler(this.ax1_Click);
             // 
             // bx1
             // 
@@ -163,6 +164,7 @@
             this.bx1.Text = "BX";
             this.bx1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bx1.UseVisualStyleBackColor = true;
+            this.bx1.CheckedChanged += new System.EventHandler(this.bx1_CheckedChanged);
             // 
             // cx1
             // 
@@ -177,6 +179,7 @@
             this.cx1.Text = "CX";
             this.cx1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cx1.UseVisualStyleBackColor = true;
+            this.cx1.CheckedChanged += new System.EventHandler(this.cx1_CheckedChanged);
             // 
             // dx1
             // 
@@ -191,6 +194,7 @@
             this.dx1.Text = "DX";
             this.dx1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dx1.UseVisualStyleBackColor = true;
+            this.dx1.CheckedChanged += new System.EventHandler(this.dx1_CheckedChanged);
             // 
             // ax2
             // 
@@ -205,6 +209,7 @@
             this.ax2.Text = "AX";
             this.ax2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ax2.UseVisualStyleBackColor = true;
+            this.ax2.CheckedChanged += new System.EventHandler(this.ax2_CheckedChanged);
             // 
             // bx2
             // 
@@ -219,6 +224,7 @@
             this.bx2.Text = "BX";
             this.bx2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bx2.UseVisualStyleBackColor = true;
+            this.bx2.CheckedChanged += new System.EventHandler(this.bx2_CheckedChanged);
             // 
             // cx2
             // 
@@ -233,6 +239,7 @@
             this.cx2.Text = "CX";
             this.cx2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cx2.UseVisualStyleBackColor = true;
+            this.cx2.CheckedChanged += new System.EventHandler(this.cx2_CheckedChanged);
             // 
             // dx2
             // 
@@ -247,6 +254,7 @@
             this.dx2.Text = "DX";
             this.dx2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dx2.UseVisualStyleBackColor = true;
+            this.dx2.CheckedChanged += new System.EventHandler(this.dx2_CheckedChanged);
             // 
             // resetbut
             // 
@@ -261,6 +269,7 @@
             this.resetbut.TabIndex = 16;
             this.resetbut.Text = "RESETUJ";
             this.resetbut.UseVisualStyleBackColor = false;
+            this.resetbut.Click += new System.EventHandler(this.resetbut_Click);
             // 
             // label4
             // 
@@ -305,7 +314,6 @@
             this.wynik2.TabIndex = 20;
             this.wynik2.Text = "2";
             this.wynik2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.wynik2.Click += new System.EventHandler(this.label7_Click);
             // 
             // wynik3
             // 
@@ -317,7 +325,6 @@
             this.wynik3.TabIndex = 21;
             this.wynik3.Text = "3";
             this.wynik3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.wynik3.Click += new System.EventHandler(this.label8_Click);
             // 
             // wynik4
             // 
@@ -329,7 +336,6 @@
             this.wynik4.TabIndex = 22;
             this.wynik4.Text = "4";
             this.wynik4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.wynik4.Click += new System.EventHandler(this.label9_Click);
             // 
             // Form1
             // 
