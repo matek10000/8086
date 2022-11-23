@@ -50,6 +50,7 @@
             this.wynik2 = new System.Windows.Forms.Label();
             this.wynik3 = new System.Windows.Forms.Label();
             this.wynik4 = new System.Windows.Forms.Label();
+            this.info1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // wykonbut
@@ -65,6 +66,7 @@
             this.wykonbut.TabIndex = 0;
             this.wykonbut.Text = "WYKONAJ";
             this.wykonbut.UseVisualStyleBackColor = false;
+            this.wykonbut.Click += new System.EventHandler(this.wykonbut_Click);
             // 
             // label2
             // 
@@ -337,6 +339,15 @@
             this.wynik4.Text = "4";
             this.wynik4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // info1
+            // 
+            this.info1.AutoSize = true;
+            this.info1.BackColor = System.Drawing.SystemColors.Info;
+            this.info1.Location = new System.Drawing.Point(557, 6);
+            this.info1.Name = "info1";
+            this.info1.Size = new System.Drawing.Size(0, 15);
+            this.info1.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -344,6 +355,7 @@
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(724, 405);
+            this.Controls.Add(this.info1);
             this.Controls.Add(this.wynik4);
             this.Controls.Add(this.wynik3);
             this.Controls.Add(this.wynik2);
@@ -371,6 +383,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Symulator procesora 8086 (by Mateusz Dybaś)";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -397,5 +410,6 @@
         private Label wynik2;
         private Label wynik3;
         private Label wynik4;
+        private Label info1;
     }
 }

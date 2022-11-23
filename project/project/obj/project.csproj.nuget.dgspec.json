@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\mateusz.dybas\\8086\\8086\\project\\project\\project.csproj": {}
+    "D:\\CSHARP\\8086\\8086\\project\\project\\project.csproj": {}
   },
   "projects": {
-    "D:\\Users\\mateusz.dybas\\8086\\8086\\project\\project\\project.csproj": {
+    "D:\\CSHARP\\8086\\8086\\project\\project\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\mateusz.dybas\\8086\\8086\\project\\project\\project.csproj",
+        "projectUniqueName": "D:\\CSHARP\\8086\\8086\\project\\project\\project.csproj",
         "projectName": "project",
-        "projectPath": "D:\\Users\\mateusz.dybas\\8086\\8086\\project\\project\\project.csproj",
-        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\mateusz.dybas\\8086\\8086\\project\\project\\obj\\",
+        "projectPath": "D:\\CSHARP\\8086\\8086\\project\\project\\project.csproj",
+        "packagesPath": "C:\\Users\\matek\\.nuget\\packages\\",
+        "outputPath": "D:\\CSHARP\\8086\\8086\\project\\project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
