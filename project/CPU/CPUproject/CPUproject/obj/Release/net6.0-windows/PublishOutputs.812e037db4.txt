@@ -1,0 +1,5 @@
+D:\Users\mateusz.dybas\8086\8086\GOTOWY\CPUproject.exe
+D:\Users\mateusz.dybas\8086\8086\GOTOWY\CPUproject.dll
+D:\Users\mateusz.dybas\8086\8086\GOTOWY\CPUproject.deps.json
+D:\Users\mateusz.dybas\8086\8086\GOTOWY\CPUproject.runtimeconfig.json
+D:\Users\mateusz.dybas\8086\8086\GOTOWY\CPUproject.pdb
