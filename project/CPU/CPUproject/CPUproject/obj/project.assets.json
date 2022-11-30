@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSHARP\\8086\\8086\\project\\CPU\\CPUproject\\CPUproject\\CPUproject.csproj",
+      "projectUniqueName": "C:\\Repos\\8086\\project\\CPU\\CPUproject\\CPUproject\\CPUproject.csproj",
       "projectName": "CPUproject",
-      "projectPath": "D:\\CSHARP\\8086\\8086\\project\\CPU\\CPUproject\\CPUproject\\CPUproject.csproj",
+      "projectPath": "C:\\Repos\\8086\\project\\CPU\\CPUproject\\CPUproject\\CPUproject.csproj",
       "packagesPath": "C:\\Users\\matek\\.nuget\\packages\\",
-      "outputPath": "D:\\CSHARP\\8086\\8086\\project\\CPU\\CPUproject\\CPUproject\\obj\\",
+      "outputPath": "C:\\Repos\\8086\\project\\CPU\\CPUproject\\CPUproject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
